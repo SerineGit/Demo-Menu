@@ -1,4 +1,4 @@
- // Дефолтные приложения
+   // Дефолтные приложения
         const defaultApps = [
             { name: 'GitHub', url: 'https://github.com', icon: '🐱' },
             { name: 'Portfolio', url: 'https://yourportfolio.com', icon: '💼' },
