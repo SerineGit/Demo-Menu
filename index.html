@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -9,7 +9,7 @@
 <body>
   <div class="header">
     <h1>🍎 Apple Watch Menu</h1>
-    <p>Зажми и перетаскивай для навигации</p>
+    <p>Hold and drag to navigate</p>
   </div>
 
   <div class="watch-container" id="watchContainer">
@@ -17,35 +17,35 @@
   </div>
 
   <div class="controls">
-    <button class="btn" onclick="editApp()">✏️ Редактировать</button>
-    <button class="btn" onclick="resetToDefaults()">🔄 Сбросить</button>
-    <button class="btn" onclick="exportConfig()">📤 Экспорт</button>
-    <button class="btn" onclick="importConfig()">📥 Импорт</button>
+    <button class="btn" onclick="editApp()">✏️ Edit</button>
+    <button class="btn" onclick="resetToDefaults()">🔄 Reset</button>
+    <button class="btn" onclick="exportConfig()">📤 Export</button>
+    <button class="btn" onclick="importConfig()">📥 Import</button>
   </div>
 
-  <!-- Модальное окно для редактирования -->
+  <!-- Modal window for editing -->
   <div class="edit-modal" id="editModal">
     <div class="modal-content">
-      <h2>Редактировать приложение</h2>
+      <h2>Edit App</h2>
       <div class="form-group">
-        <label>Выберите слот:</label>
+        <label>Select slot:</label>
         <select id="slotSelect"></select>
       </div>
       <div class="form-group">
-        <label>Название:</label>
-        <input type="text" id="appName" placeholder="Например: GitHub" />
+        <label>Name:</label>
+        <input type="text" id="appName" placeholder="e.g., GitHub" />
       </div>
       <div class="form-group">
-        <label>Ссылка:</label>
+        <label>URL:</label>
         <input type="url" id="appUrl" placeholder="https://github.com/username" />
       </div>
       <div class="form-group">
-        <label>Иконка (emoji или символ):</label>
+        <label>Icon (emoji or symbol):</label>
         <input type="text" id="appIcon" placeholder="🐱" maxlength="2" />
       </div>
       <div class="modal-buttons">
-        <button class="modal-btn cancel" onclick="closeModal()">Отмена</button>
-        <button class="modal-btn save" onclick="saveApp()">Сохранить</button>
+        <button class="modal-btn cancel" onclick="closeModal()">Cancel</button>
+        <button class="modal-btn save" onclick="saveApp()">Save</button>
       </div>
     </div>
   </div>
@@ -53,4 +53,3 @@
   <script src="js/script.js"></script>
 </body>
 </html>
-
