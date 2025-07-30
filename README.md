@@ -7,6 +7,8 @@ https://serinegit.github.io/Demo-Menu/
 -----
 
 ```python
-`print("Hello, World!")`
+print("Hello, World!")
 ```
+
+![Code Block](./assets/code-block.svg)
 
