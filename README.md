@@ -7,6 +7,6 @@ https://serinegit.github.io/Demo-Menu/
 -----
 
 ```python
-print("Hello, World!")
+`print("Hello, World!")`
 ```
 
