@@ -2,6 +2,10 @@
 
 https://serinegit.github.io/Demo-Menu/
 
+Unicode Text Converter
+Fancy Text Generator
+Cool Symbol
+
 
 https://ray.so/
 -----
